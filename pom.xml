@@ -47,7 +47,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/Sampuccino/Spring-5-Pet-Clinic.git</developerConnection>
-      <tag>HEAD</tag>
   </scm>
 
     <repositories>
