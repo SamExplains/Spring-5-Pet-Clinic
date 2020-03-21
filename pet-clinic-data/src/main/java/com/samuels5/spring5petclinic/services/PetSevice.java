@@ -4,12 +4,6 @@ import com.samuels5.spring5petclinic.model.Pet;
 
 import java.util.Set;
 
-public interface PetSevice {
-
-    Pet findById(Long id);
-
-    Pet save(Pet owner);
-
-    Set<Pet> findAll();
+public interface PetSevice extends CrudService<Pet, Long> {
 
 }
